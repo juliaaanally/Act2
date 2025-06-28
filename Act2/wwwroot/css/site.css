@@ -1,0 +1,68 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(to bottom, #ffe6f0, #ffd6eb); /* pastel pink gradient */
+    color: #333; /* darker text for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+h2, h3 {
+    color: #cc6699; 
+    text-shadow: 1px 1px #fff;
+}
+
+.card {
+    background-color: #fff0f5;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(153, 51, 102, 0.8); 
+    }
+
+.card-title {
+    color: #cc6699;
+}
+
+.card-text {
+    color: #555;
+}
+
+footer {
+    background-color: #ffcce6;
+    border-top: 2px solid #ffb3d9;
+}
+
+.navbar {
+    background-color: #ffccdd !important; 
+}
+
+.nav-link, .navbar-brand {
+    color: #cc6699 !important;
+}
+
+    .nav-link:hover, .navbar-brand:hover {
+        color: #993366 !important;
+    }
+
+iframe {
+    border-radius: 10px;
+}
